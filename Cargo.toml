@@ -1,10 +1,13 @@
 [package]
-name = "arch-shader-alliances-kernel"
+name = "sigmaos-arch-shader-alliances-kernel"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-shader-alliances-kernel component - Inspired by Arch Linux and Debian"
+description = "Alliances shader kernel for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-shader-alliances-kernel"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_shader_alliances_kernel"
+path = "src/lib.rs"
